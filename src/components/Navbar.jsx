@@ -6,7 +6,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const navAboutMe = () => {
-    navigate('/');
+    navigate('/portfolio-website');
     setTimeout(() => {
       const aboutSection = document.getElementById('about');
       if (aboutSection) {
@@ -15,7 +15,7 @@ const Navbar = () => {
     }, 100);
   };
   const navProjects = () => {
-    navigate('/');
+    navigate('/portfolio-website');
     setTimeout(() => {
       const projectSection = document.getElementById('projects');
       if (projectSection) {
@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <NavLink to="/">
+          <NavLink to="/portfolio-website">
             <img className="nav-logo" src={logo} />
           </NavLink>
         </div>

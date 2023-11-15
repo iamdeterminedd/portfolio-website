@@ -10,7 +10,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/portfolio-website" element={<Home />} />
           <Route path="/credits" element={<Credits />} />
         </Routes>
       </div>
