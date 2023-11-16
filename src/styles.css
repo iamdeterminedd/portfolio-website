@@ -123,21 +123,28 @@ width: 100px;
     padding: 0 300px;
 }
 
-.aboutme .container-skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Skills*/
+
+.skills .container-skills {
 }
 
-.aboutme .skills-container-img {
+.skills .skills-container-img ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    padding: 0;
     text-align: center;
 }
 
-.aboutme .skill-img {
+.skills .skills-container-img .skill-item {
+    text-align: center;
+}
+
+.skills .skill-text {
+    font-size: 16px;
+}
+
+.skills .skill-img {
     width: 30%;
 
 }
@@ -475,6 +482,14 @@ a#scroll-btn:before {
 
 }
 
+@media (max-width: 768px){
+
+    .skills .skill-text {
+        font-size: 10px;
+    }
+
+}
+
 @media(max-width: 670px) {
 
 
@@ -550,11 +565,11 @@ a#scroll-btn:before {
     margin-bottom: 50px;
 }
 
-.aboutme .skills-heading {
+.skills .skills-heading {
     margin-bottom: 40px;
 }
 
-.aboutme .skill-img {
+.skills .skill-img {
     width: 60%;
 
 }

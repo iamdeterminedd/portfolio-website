@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data/skills';
+import Skills from '../components/Skills';
 
 const AboutMe = () => {
   return (
@@ -22,15 +22,8 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="container-skills">
-        <h3 className="skills-heading text-l">Skills & Technologies</h3>
         <div className="skills-container-img">
-          {data?.skills?.map((item, index) => (
-            <div key={index} className="skill-group-img">
-              <div>
-                <img src={item.src} className="skill-img" />
-              </div>
-            </div>
-          ))}
+          <Skills />
         </div>
       </div>
     </section>

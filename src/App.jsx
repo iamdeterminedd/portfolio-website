@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/portfolio-website" element={<Home />} />
-          <Route path="/credits" element={<Credits />} />
+          <Route path="/portfolio-website/credits" element={<Credits />} />
         </Routes>
       </div>
     </>
