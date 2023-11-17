@@ -6,11 +6,13 @@ const AboutMe = () => {
     <section id="about" className="aboutme bg-black">
       <div>
         <h2 className="aboutme-heading text-xl text-center">About me</h2>
-        <p className="aboutme-text">
+        <p className="aboutme-text1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt totam
           unde nemo commodi. Nihil ab hic, impedit placeat esse assumenda magnam
           maiores voluptas nostrum, exercitationem rem deserunt, aut dolorum
           numquam voluptates tempore accusantium tenetur facilis nam optio
+        </p>
+        <p className="aboutme-text2">
           fugiat et. Qui vitae aut, similique eos, laboriosam voluptates dolorum
           facilis vero blanditiis hic enim? Praesentium similique ullam,
           explicabo beatae consectetur perferendis sint illum officiis illo?
