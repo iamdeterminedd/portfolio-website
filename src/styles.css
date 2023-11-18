@@ -314,8 +314,6 @@ img {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #424242
-
-
 }
 
 .contact .contact-img {
@@ -332,7 +330,7 @@ img {
 }
 
 .contact-subtitle {
-    /* font-size: 20px; */
+    margin-bottom: 30px;
 }
 
 .contact .contact-label {
@@ -382,6 +380,7 @@ img {
     justify-content: center;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .github-link {
@@ -390,6 +389,11 @@ img {
 
 .linkedin-link {
     color: #fff;
+}
+
+.credits {
+    color: #fff;
+    font-size: 14px;
 }
 
 @media(min-width: 700px){
@@ -417,6 +421,11 @@ img {
 .contact form {
     padding: 50px;
 }
+
+.contact .contact-img {
+    width: 80px;
+}
+
 
 }
 
@@ -499,6 +508,17 @@ img {
 .skills .skill-img {
     width: 30%;
 
+}
+
+.contact .contact-title {
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    gap: 20px;
+}
+
+.contact .contact-img {
+    width: 60px;
 }
 
 .project-container {

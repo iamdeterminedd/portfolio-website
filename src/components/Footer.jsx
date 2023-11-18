@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <Link className="linkedin-link" to="credits">
+          <Link className="credits" to="credits">
             Credits
           </Link>
         </div>
